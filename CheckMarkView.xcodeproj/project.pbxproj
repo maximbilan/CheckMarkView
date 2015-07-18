@@ -13,6 +13,8 @@
 		940C8E111B5A5150006AFFD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940C8E101B5A5150006AFFD1 /* Images.xcassets */; };
 		940C8E141B5A5150006AFFD1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 940C8E121B5A5150006AFFD1 /* LaunchScreen.xib */; };
 		940C8E2B1B5A5269006AFFD1 /* CheckMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940C8E2A1B5A5269006AFFD1 /* CheckMarkView.swift */; };
+		940C8E2D1B5A5E0C006AFFD1 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940C8E2C1B5A5E0C006AFFD1 /* CollectionViewController.swift */; };
+		940C8E2F1B5A5FDA006AFFD1 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 940C8E2E1B5A5FDA006AFFD1 /* image1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		940C8E101B5A5150006AFFD1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		940C8E131B5A5150006AFFD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		940C8E2A1B5A5269006AFFD1 /* CheckMarkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckMarkView.swift; sourceTree = "<group>"; };
+		940C8E2C1B5A5E0C006AFFD1 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		940C8E2E1B5A5FDA006AFFD1 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +63,11 @@
 				940C8E291B5A524F006AFFD1 /* Sources */,
 				940C8E091B5A5150006AFFD1 /* AppDelegate.swift */,
 				940C8E0B1B5A5150006AFFD1 /* ViewController.swift */,
+				940C8E2C1B5A5E0C006AFFD1 /* CollectionViewController.swift */,
 				940C8E0D1B5A5150006AFFD1 /* Main.storyboard */,
 				940C8E101B5A5150006AFFD1 /* Images.xcassets */,
 				940C8E121B5A5150006AFFD1 /* LaunchScreen.xib */,
+				940C8E2E1B5A5FDA006AFFD1 /* image1.jpg */,
 				940C8E071B5A514F006AFFD1 /* Supporting Files */,
 			);
 			path = CheckMarkView;
@@ -142,6 +148,7 @@
 			files = (
 				940C8E0F1B5A5150006AFFD1 /* Main.storyboard in Resources */,
 				940C8E141B5A5150006AFFD1 /* LaunchScreen.xib in Resources */,
+				940C8E2F1B5A5FDA006AFFD1 /* image1.jpg in Resources */,
 				940C8E111B5A5150006AFFD1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				940C8E2D1B5A5E0C006AFFD1 /* CollectionViewController.swift in Sources */,
 				940C8E2B1B5A5269006AFFD1 /* CheckMarkView.swift in Sources */,
 				940C8E0C1B5A5150006AFFD1 /* ViewController.swift in Sources */,
 				940C8E0A1B5A5150006AFFD1 /* AppDelegate.swift in Sources */,
