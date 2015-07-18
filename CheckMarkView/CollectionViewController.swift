@@ -12,7 +12,7 @@ let reuseIdentifier = "Cell"
 
 class CollectionViewCell: UICollectionViewCell {
 	@IBOutlet weak var imageView: UIImageView!
-	@IBOutlet weak var checkMarkView: UIView!
+	@IBOutlet weak var checkMarkView: CheckMarkView!
 }
 
 class CollectionViewController: UICollectionViewController {
@@ -54,13 +54,14 @@ class CollectionViewController: UICollectionViewController {
 
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         //#warning Incomplete method implementation -- Return the number of items in the section
-        return 1
+        return 5
     }
 
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! CollectionViewCell
 		
-		cell.imageView.image = UIImage(named: "image1.jpg")
+		let imageName = String("image\(indexPath.row + 1).png")
+		cell.imageView.image = UIImage(named: imageName)
 		
         // Configure the cell
     

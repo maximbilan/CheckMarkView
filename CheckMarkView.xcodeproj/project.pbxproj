@@ -14,7 +14,11 @@
 		940C8E141B5A5150006AFFD1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 940C8E121B5A5150006AFFD1 /* LaunchScreen.xib */; };
 		940C8E2B1B5A5269006AFFD1 /* CheckMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940C8E2A1B5A5269006AFFD1 /* CheckMarkView.swift */; };
 		940C8E2D1B5A5E0C006AFFD1 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940C8E2C1B5A5E0C006AFFD1 /* CollectionViewController.swift */; };
-		940C8E2F1B5A5FDA006AFFD1 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 940C8E2E1B5A5FDA006AFFD1 /* image1.jpg */; };
+		940C8E3D1B5A639D006AFFD1 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 940C8E381B5A639D006AFFD1 /* image1.png */; };
+		940C8E3E1B5A639D006AFFD1 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 940C8E391B5A639D006AFFD1 /* image2.png */; };
+		940C8E3F1B5A639D006AFFD1 /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = 940C8E3A1B5A639D006AFFD1 /* image3.png */; };
+		940C8E401B5A639D006AFFD1 /* image4.png in Resources */ = {isa = PBXBuildFile; fileRef = 940C8E3B1B5A639D006AFFD1 /* image4.png */; };
+		940C8E411B5A639D006AFFD1 /* image5.png in Resources */ = {isa = PBXBuildFile; fileRef = 940C8E3C1B5A639D006AFFD1 /* image5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +31,11 @@
 		940C8E131B5A5150006AFFD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		940C8E2A1B5A5269006AFFD1 /* CheckMarkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckMarkView.swift; sourceTree = "<group>"; };
 		940C8E2C1B5A5E0C006AFFD1 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
-		940C8E2E1B5A5FDA006AFFD1 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		940C8E381B5A639D006AFFD1 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		940C8E391B5A639D006AFFD1 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		940C8E3A1B5A639D006AFFD1 /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
+		940C8E3B1B5A639D006AFFD1 /* image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image4.png; sourceTree = "<group>"; };
+		940C8E3C1B5A639D006AFFD1 /* image5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +75,11 @@
 				940C8E0D1B5A5150006AFFD1 /* Main.storyboard */,
 				940C8E101B5A5150006AFFD1 /* Images.xcassets */,
 				940C8E121B5A5150006AFFD1 /* LaunchScreen.xib */,
-				940C8E2E1B5A5FDA006AFFD1 /* image1.jpg */,
+				940C8E381B5A639D006AFFD1 /* image1.png */,
+				940C8E391B5A639D006AFFD1 /* image2.png */,
+				940C8E3A1B5A639D006AFFD1 /* image3.png */,
+				940C8E3B1B5A639D006AFFD1 /* image4.png */,
+				940C8E3C1B5A639D006AFFD1 /* image5.png */,
 				940C8E071B5A514F006AFFD1 /* Supporting Files */,
 			);
 			path = CheckMarkView;
@@ -147,8 +159,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				940C8E0F1B5A5150006AFFD1 /* Main.storyboard in Resources */,
+				940C8E3F1B5A639D006AFFD1 /* image3.png in Resources */,
+				940C8E3E1B5A639D006AFFD1 /* image2.png in Resources */,
+				940C8E3D1B5A639D006AFFD1 /* image1.png in Resources */,
+				940C8E401B5A639D006AFFD1 /* image4.png in Resources */,
+				940C8E411B5A639D006AFFD1 /* image5.png in Resources */,
 				940C8E141B5A5150006AFFD1 /* LaunchScreen.xib in Resources */,
-				940C8E2F1B5A5FDA006AFFD1 /* image1.jpg in Resources */,
 				940C8E111B5A5150006AFFD1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

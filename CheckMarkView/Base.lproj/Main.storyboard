@@ -30,7 +30,7 @@
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="F75-Uy-RX4">
                                             <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                         </imageView>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZfF-Wk-S9C">
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZfF-Wk-S9C" customClass="CheckMarkView" customModule="CheckMarkView" customModuleProvider="target">
                                             <rect key="frame" x="60" y="8" width="28" height="28"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <constraints>
@@ -62,7 +62,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <outlet property="checkMarkView" destination="ZfF-Wk-S9C" id="ot6-aa-eU9"/>
+                                    <outlet property="checkMarkView" destination="ZfF-Wk-S9C" id="sMu-tN-kYz"/>
                                     <outlet property="imageView" destination="F75-Uy-RX4" id="ZIa-EA-l4d"/>
                                 </connections>
                             </collectionViewCell>
