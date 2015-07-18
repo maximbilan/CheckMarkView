@@ -62,16 +62,19 @@ class CollectionViewController: UICollectionViewController {
 		
 		let imageName = String("image\(indexPath.row + 1).png")
 		cell.imageView.image = UIImage(named: imageName)
-		
-		cell.checkMarkView.checked = true
-		
-        // Configure the cell
+		cell.checkMarkView.setNeedsDisplay()
+
     
         return cell
     }
 
     // MARK: UICollectionViewDelegate
 
+	override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+		let cell = collectionView.cellForItemAtIndexPath(indexPath) as! CollectionViewCell
+		cell.checkMarkView.checked = !cell.checkMarkView.checked
+	}
+	
     /*
     // Uncomment this method to specify if the specified item should be highlighted during tracking
     override func collectionView(collectionView: UICollectionView, shouldHighlightItemAtIndexPath indexPath: NSIndexPath) -> Bool {
