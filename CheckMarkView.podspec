@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 s.name         = "CheckMarkView"
 s.version      = "0.1"
-s.summary      = "CheckMarkView"
-s.description  = "CheckMarkView"
+s.summary      = "CheckMark View"
+s.description  = "Swift CheckMark UIView control"
 s.homepage     = "https://github.com/maximbilan/CheckMarkView"
 s.license      = { :type => "MIT" }
 s.author       = { "Maxim Bilan" => "maximb.mail@gmail.com" }
