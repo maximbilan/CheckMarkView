@@ -32,7 +32,7 @@
                                         </imageView>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZfF-Wk-S9C" customClass="CheckMarkView" customModule="CheckMarkView" customModuleProvider="target">
                                             <rect key="frame" x="60" y="8" width="28" height="28"/>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="28" id="HuI-ro-LnC"/>
                                                 <constraint firstAttribute="width" constant="28" id="I09-tR-g9H"/>
