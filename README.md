@@ -7,3 +7,15 @@
 Unfortunately <i>Apple</i> doesn't provide accessory type property for <i>UICollectionViewCell</i>, such as for <i>UITableViewCell</i>, so I provide custom way to create checkmark. Just simple view which draws programmatically checkmark with some styles.
 
 ![alt tag](https://raw.github.com/maximbilan/CheckMarkView/master/img/img1.png)
+
+# Installation
+
+Manual:
+<pre>
+Copy CheckMarkView.swift to your project.
+</pre>
+
+Cocoapods:
+<pre>
+pod 'CheckMarkView'
+</pre>
