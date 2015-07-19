@@ -10,12 +10,20 @@ Unfortunately <i>Apple</i> doesn't provide accessory type property for <i>UIColl
 
 # Installation
 
-Manual:
+<b>Manual:</b>
 <pre>
 Copy CheckMarkView.swift to your project.
 </pre>
 
-Cocoapods:
+<b>Cocoapods:</b>
 <pre>
 pod 'CheckMarkView'
 </pre>
+
+## How to use
+
+
+
+## License
+
+CheckMarkView is available under the MIT license. See the LICENSE file for more info.
