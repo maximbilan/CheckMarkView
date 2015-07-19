@@ -22,7 +22,22 @@ pod 'CheckMarkView'
 
 ## How to use
 
+You can create from code, or setup view in the Storyboard, XIB.
 
+<pre>
+let checkMarkView = CheckMarkView()
+</pre>
+
+For controlling you have <i>checked</i> property.
+And <i>style</i> property for unchecked view. There are some styles:
+
+<pre>
+enum CheckMarkStyle: Int {
+	  case Nothing
+	  case OpenCircle
+		case GrayedOut
+}
+</pre>
 
 ## License
 
