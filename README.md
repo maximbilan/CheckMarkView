@@ -15,7 +15,7 @@ Unfortunately <i>Apple</i> doesn't provide accessory type property for <i>UIColl
 Copy CheckMarkView.swift to your project.
 </pre>
 
-<b>Cocoapods:</b>
+<b>CocoaPods:</b>
 <pre>
 pod 'CheckMarkView'
 </pre>
