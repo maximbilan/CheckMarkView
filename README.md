@@ -10,14 +10,14 @@ Unfortunately <i>Apple</i> doesn't provide accessory type property for <i>UIColl
 
 # Installation
 
-<b>Manual:</b>
-<pre>
-Copy CheckMarkView.swift to your project.
-</pre>
-
 <b>CocoaPods:</b>
 <pre>
 pod 'CheckMarkView'
+</pre>
+
+<b>Manual:</b>
+<pre>
+Copy CheckMarkView.swift to your project.
 </pre>
 
 ## How to use
