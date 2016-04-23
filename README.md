@@ -18,7 +18,7 @@ pod 'CheckMarkView'
 
 <b>Manual:</b>
 <pre>
-Copy CheckMarkView.swift to your project.
+Copy <i>CheckMarkView.swift</i> to your project.
 </pre>
 
 ## How to use
