@@ -21,7 +21,7 @@ pod 'CheckMarkView'
 Copy <i>CheckMarkView.swift</i> to your project.
 </pre>
 
-## How to use
+## Using
 
 You can create from code, or setup view in the <i>Storyboard</i>, <i>XIB</i>.
 
