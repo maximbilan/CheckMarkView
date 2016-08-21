@@ -28,29 +28,29 @@ class CollectionViewController: UICollectionViewController {
 
     // MARK: UICollectionViewDataSource
 
-    override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
-        return 1
-    }
+	override func numberOfSections(in collectionView: UICollectionView) -> Int {
+		return 1
+	}
 
-    override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 6
     }
 
-    override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! CollectionViewCell
+	override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+		let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath as IndexPath) as! CollectionViewCell
 		
 		let imageName = String("image\(indexPath.row + 1).png")
-		cell.imageView.image = UIImage(named: imageName)
+		cell.imageView.image = UIImage(named: imageName!)
 		cell.checkMarkView.style = .GrayedOut
 		cell.checkMarkView.setNeedsDisplay()
-    
-        return cell
-    }
+		
+		return cell
+	}
 
     // MARK: UICollectionViewDelegate
 
-	override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-		let cell = collectionView.cellForItemAtIndexPath(indexPath) as! CollectionViewCell
+	override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+		let cell = collectionView.cellForItem(at: indexPath as IndexPath) as! CollectionViewCell
 		cell.checkMarkView.checked = !cell.checkMarkView.checked
 	}
 	
