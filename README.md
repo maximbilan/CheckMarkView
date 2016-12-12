@@ -30,7 +30,7 @@ Copy <i>CheckMarkView.swift</i> to your project.
 
 ## Using
 
-You can create from code, or setup view in the <i>Storyboard</i>, <i>XIB</i>.
+You can create from code or setup view in the <i>Storyboard</i>, <i>XIB</i>.
 
 <pre>
 let checkMarkView = CheckMarkView()
