@@ -40,7 +40,7 @@ class CollectionViewController: UICollectionViewController {
 		let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath as IndexPath) as! CollectionViewCell
 		
 		let imageName = String("image\(indexPath.row + 1).png")
-		cell.imageView.image = UIImage(named: imageName!)
+		cell.imageView.image = UIImage(named: imageName)
 		cell.checkMarkView.style = .GrayedOut
 		cell.checkMarkView.setNeedsDisplay()
 		
