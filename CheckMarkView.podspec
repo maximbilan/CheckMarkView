@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "CheckMarkView"
-s.version      = "0.4.0"
+s.version      = "0.4.1"
 s.summary      = "Simple checkmark for UICollectionViewCell"
 s.description  = "Just simple view which draws programmatically checkmark with some styles"
 s.homepage     = "https://github.com/maximbilan/CheckMarkView"
