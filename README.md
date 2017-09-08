@@ -38,9 +38,9 @@ And <i>style</i> property for unchecked view. There are some styles:
 
 <pre>
 enum CheckMarkStyle: Int {
-    case Nothing
-    case OpenCircle
-    case GrayedOut
+    case nothing
+    case openCircle
+    case grayedOut
 }
 </pre>
 
