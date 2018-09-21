@@ -15,7 +15,7 @@ A just simple view which draws programmatically checkmark with some styles.
 
 <b>CocoaPods:</b>
 <pre>
-pod 'CheckMarkView', '~> 0.4.0'
+pod 'CheckMarkView'
 </pre>
 
 <b>Manual:</b>
