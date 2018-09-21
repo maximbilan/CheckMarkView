@@ -15,10 +15,6 @@ A just simple view which draws programmatically checkmark with some styles.
 
 <b>CocoaPods:</b>
 <pre>
-<b>Swift 3.0</b>:
-pod 'CheckMarkView', '0.3.0'
-
-<b>Swift 4.0</b>:
 pod 'CheckMarkView', '~> 0.4.0'
 </pre>
 
