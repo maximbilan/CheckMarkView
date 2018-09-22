@@ -6,8 +6,8 @@
 [![CocoaPods](https://img.shields.io/cocoapods/dt/CheckMarkView.svg)](https://cocoapods.org/pods/CheckMarkView)
 [![CocoaPods](https://img.shields.io/cocoapods/dm/CheckMarkView.svg)](https://cocoapods.org/pods/CheckMarkView)
 
-Unfortunately <i>Apple</i> doesn't provide accessory type property for <i>UICollectionViewCell</i>, such as for <i>UITableViewCell</i>, so I provide custom way to create checkmark.
-A just simple view which draws programmatically checkmark with some styles.
+Unfortunately <i>Apple</i> doesn't provide an accessory type property for <i>UICollectionViewCell</i>, such as for <i>UITableViewCell</i>, so I provide a custom way to create a checkmark.
+A just a simple view which draws programmatically a checkmark with some styles.
 
 ![alt tag](https://raw.github.com/maximbilan/CheckMarkView/master/img/img1.png)
 
@@ -25,7 +25,7 @@ Copy <i>CheckMarkView.swift</i> to your project.
 
 ## Using
 
-You can create from code or setup view in the <i>Storyboard</i>, <i>XIB</i>.
+You can create from the code or set up a view in the <i>Storyboard</i>, <i>XIB</i>.
 
 <pre>
 let checkMarkView = CheckMarkView()
