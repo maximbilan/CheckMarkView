@@ -31,7 +31,7 @@ You can create from the code or set up a view in the <i>Storyboard</i>, <i>XIB</
 let checkMarkView = CheckMarkView()
 </pre>
 
-For controlling you have the <i>checked</i> property.
+For controlling you have <i>checked</i> property.
 And <i>style</i> property for the unchecked view. There are some styles:
 
 <pre>
